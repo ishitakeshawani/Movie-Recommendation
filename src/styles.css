@@ -1,0 +1,35 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #b4aee8;
+  color: #440a67;
+}
+
+.btn {
+  background: #b4aee8;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #440a67;
+  margin: 1rem 0.3rem;
+}
+
+.btn:focus {
+  outline: none;
+  background: white;
+}
+
+.card {
+  list-style: none;
+  padding: 1rem;
+  border: 2px solid #ffe3fe;
+  width: 70%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
