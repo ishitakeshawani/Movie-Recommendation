@@ -6,28 +6,32 @@
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: #b4aee8;
-  color: #440a67;
+  background-color: #181818;
 }
 
 .btn {
-  background: #b4aee8;
+  background: white;
   cursor: pointer;
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
-  border: 2px solid #440a67;
+  border: 2px solid black;
   margin: 1rem 0.3rem;
+  color: #e50914;
+  font-weight: bold;
 }
 
 .btn:focus {
   outline: none;
-  background: white;
+  background: #e50914;
+  color: white;
+  border: 2px solid white;
 }
 
 .card {
   list-style: none;
   padding: 1rem;
-  border: 2px solid #ffe3fe;
+  color: white;
+  border: 2px solid white;
   width: 70%;
   margin: 1rem 0rem;
   border-radius: 0.5rem;
